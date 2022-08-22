@@ -1,0 +1,20 @@
+{
+  "name": "backend-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravelloo2/backend-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravelloo2/backend-pack/issues"
+  },
+  "homepage": "https://github.com/Ravelloo2/backend-pack#readme"
+}
