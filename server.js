@@ -15,6 +15,6 @@ app.post('/', (req, res) => {
   res.send('Det här är en request')
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Servern lyssnar på port ${PORT}`);
 });
