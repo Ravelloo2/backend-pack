@@ -1,13 +1,20 @@
 const express = require("express");
 
-const port = 3000;
+const PORT = process.env.PORT || 3000
 
 const app = express();
 
+const schedule = require('./schedule.js')
+schedule.init()
+
 app.get("/", (req, res) => {
-  res.status(200).send("Jontes mamma");
+  res.status(200).send("Tjena");
 });
 
+app.post('/', (req, res) => {
+  res.send('Det här är en request')
+})
+
 app.listen(port, () => {
-  console.log("Jonte lyssnar");
+  console.log(`Servern lyssnar på port ${PORT}`);
 });
